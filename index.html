@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宝宝原谅我</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="container">
+        <div class="hearts"></div>
+        <div class="content">
+            <div class="content-inner">
+                <h1 class="title animate__animated animate__bounce">宝宝原谅我吧！</h1>
+                <div class="bear-container">
+                    <div class="bear">
+                        <div class="emoji animate__animated animate__pulse animate__infinite">🧸</div>
+                        <div class="tear tear-left"></div>
+                        <div class="tear tear-right"></div>
+                    </div>
+                </div>
+                <p id="question" class="message animate__animated animate__fadeIn">我知道我错了，你能原谅我吗？</p>
+                <div class="options">
+                    <button id="forgive" class="btn forgive animate__animated animate__heartBeat animate__delay-2s">
+                        <span>原谅你</span>
+                        <div class="btn-effect"></div>
+                    </button>
+                    <button id="not-forgive" class="btn not-forgive">
+                        <span>不原谅</span>
+                    </button>
+                </div>
+                <div id="result" class="result"></div>
+            </div>
+        </div>
+    </div>
+    <div class="floating-hearts">
+        <div class="floating-heart">❤️</div>
+        <div class="floating-heart">❤️</div>
+        <div class="floating-heart">❤️</div>
+        <div class="floating-heart">💕</div>
+        <div class="floating-heart">💖</div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
